@@ -10,19 +10,23 @@
     margin: 0 auto;
     padding: 0 54px;
 }
-.header {
-    background-color: #F4F9E2;
-}
 
 .header__container {
     display: flex;
-    justify-content: space-between;
-    max-width: 1131px;
-    margin: 27px auto 164px;
-    padding: 0 54px;
+
+    background-color: #F4F9E2;
+}
+
+.header__container-nav {
+    display: flex;
+    margin: 27px 0 238px;
+    flex-basis: 938px;
+    padding-left: 178px;
+
 }
 
 .header__logo {
+    margin-right: 320px;
     font-family: 'Larsseit', sans-serif;
     font-size: 24px;
     line-height: 112%;
@@ -57,13 +61,104 @@
     border-bottom: 1px solid #22356F;
 }
 
+.header__container-button {
+    width: 269px;
+    padding: 27px 0 0 45px;
+    background-color: #fff;
+    flex-grow: 1;
+    padding-right: 54px;
+}
+
 .header__button {
     width: 150px;
     height: 50px;
 
     font-weight: 700;
     color: #fff;
-    
+
     border-radius: 25px;
     background-color: #62D0DF;
+}
+
+.page__helping-you {
+    display: flex;
+    justify-content: center;
+
+    background-color: #F4F9E2;
+}
+
+.helping-you__description {
+    flex-basis: 938px;
+    padding-left: 178px;
+}
+
+.helping-you__container {
+    max-width: 469px;
+}
+
+.helping-you__logo {
+    margin-bottom: 40px;
+
+    font-size: 24px;
+    line-height: 112%;
+    font-weight: 700;
+    letter-spacing: -0.035em;
+
+    color: #62D0DF;
+}
+
+.helping-you__title {
+    margin-bottom: 70px;
+
+    font-size: 48px;
+    line-height: 111%;
+    font-weight: 700;   
+    letter-spacing: -0.035em;
+}
+
+.helping-you__text {
+    padding-bottom: 63px;
+
+    font-size: 24px;
+    line-height: 175%;
+    font-weight: 400;
+}
+
+.helping-you__buttons {
+    display: flex;
+}
+
+.button {
+    width: 150px;
+    height: 50px;
+    margin-bottom: 77px;
+
+    font-size: 16px;
+    font-weight: 700;
+    color: #FAB63E;
+    
+    background-color: #F4F9E2;
+}
+
+.button:active {
+    color: #fff;
+    
+    background-color: #F9B640;
+}
+
+.helping-you__photo {
+    width: 269px;
+    flex-grow: 1;
+    padding-right: 54px;
+    background-color: #fff;
+}
+.helping-you__ellipse-background {
+    width: 545px;
+    height: 808px;
+    margin-top: -300px;
+
+    background-color: #EDFDFF;
+    border-radius: 272.5px;
+
+    transform: rotate(52.84deg);
 }
