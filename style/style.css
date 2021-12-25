@@ -325,9 +325,10 @@
     }
 }    
 @media (max-width: 480px) {
-    /* .why-thrive__description {
-        background-image: url('img/main/why_thrive_small.png');
-    } */
+    .why-thrive__description {
+        color: #F6F6F6;
+        background: url('../img/manu/why_thrive_small.png') center/100% 100% no-repeat;
+    }
     .why-thrive__photo {
         display: none;
     }
@@ -388,7 +389,6 @@
 }
 .help-you__column li {
     display: inline-block;
-    margin-top: 23px;
 
     font-size: 32px;
     line-height: 105%;
@@ -436,9 +436,138 @@
     .help-you__column {
         height: 200px;
     }
+    .column__line {
+        margin: 30px 0 10px 0;
+    }
     .help-you__column li {
         margin-left: -20px;
 
         font-size: 18px;
+    }
+}
+.sports__columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+.sports__column {
+    width: 33.333%;
+    height: 480px;
+}
+.column__content {
+    padding: 0px 70px;
+}
+.column__line {
+    margin-bottom: 30px;
+}
+.column__content li {
+    display: inline-block;
+    font-size: 32px;
+    line-height: 105%;
+    color: #fff;
+}
+.column__content ul {
+    display: list-item;;
+
+    font-size: 24px;
+    list-style: inside;
+    color: #E9B730;
+}
+.column__physical-health {
+    background-color: #22356F;
+}
+.column__mental-health {
+    background-color: #0052C1;
+}
+.column__nutrition {
+
+    display: inline-block;
+    background: url('../img/manu/nutrition_background_image.png') center/100% 100% no-repeat;
+}
+.column__gymnastics {
+    background-color: #62D0DF;
+}
+.column__crossfit {
+    background-color: #DEE1FF;
+}
+.column__aerobics {
+    background-color: #8F00FF;
+}
+@media (max-width: 1199px) {
+    .sports__column {
+        width: 50%;
+    }
+}
+@media (max-width: 991px) {
+    .sports__column {
+        height: 380px;
+    }
+    .column__content {
+        padding: 0 30px;
+    }
+    .column__content li {
+        font-size: 20px;
+    }
+}
+@media (max-width: 480px) {
+    .sports__column {
+        height: 200px;
+    }
+    .column__content li {
+        margin-left: -20px;
+
+        font-size: 18px;
+    }
+    .column__content {
+        padding: 0 12px;
+    }
+}
+.sports__description {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+.description__plan {
+    width: 33.333%;
+    height: 240px;
+    padding: 55px 0 0 105px;
+}
+.plan__column {
+    max-width: 280px;
+}
+.plan__title {
+    margin-bottom: 28px;
+
+    font-size: 28px;
+    line-height: 117%;
+    font-weight: 500;
+}
+.plan__text {
+    line-height: 158%;
+    font-weight: 500;
+    color: #22356F80;
+}
+@media (max-width: 1199px) {
+        .description__plan {
+            padding: 35px 0 0 55px;
+    }
+}
+@media (max-width: 991px) {
+    .description__plan {
+        width: 50%;
+        padding: 20px 10px 0 25px;
+    }
+}
+@media (max-width: 480px) {
+    .description__plan {
+        height: 190px;
+        padding: 20px 10px 0 10px;
+    }
+    .plan__title {
+        margin-bottom: 15px;
+
+        font-size: 18px;
+    }
+    .plan__text {
+        line-height: 110%;
     }
 }
