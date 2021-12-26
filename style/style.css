@@ -574,7 +574,7 @@
 .page__statistics {
     display: flex;
 }
-.statistics__conteiner {
+.statistics__container {
     padding: 103px 15px 0 106px;
 }
 .statistics__title {
@@ -593,6 +593,8 @@
     color: #6CD3E1;
 }
 .statistics__button {
+    margin-bottom: 50px;
+
     font-weight: 700;
     color: #FAB63E;
 
@@ -607,7 +609,7 @@
     .statistics__photo {
         display: none;
     }    
-    .statistics__conteiner {
+    .statistics__container {
         padding: 50px 15px 0 20px;
     }
     .statistics__title {
@@ -620,10 +622,11 @@
     }
 }
 @media (max-width: 480px) {
-    .statistics__conteiner {
-        z-index: 1;
-        margin-left: -489px;
+    .statistics__container {
+        max-width: 300px;
+        margin-left: -326px;
         padding: 40px 15px 0 20px;
+        z-index: 1;
     }
     .statistics__text {
         max-width: 450px;
@@ -632,10 +635,87 @@
     .statistics__photo {
         display: block;
         height: 480px;
-        
+        width: 100%;
+
         opacity: 0.3;
+    }
+    .statistics__photo img {
+        height: 100%;
+        width: 100%
     }
     .statistics__button {
         padding: 5px;
+    }
+}
+
+.page__ready-set-smile {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #22356F;
+
+}
+.ready-set-smile__container {
+    max-width: 750px;
+    padding: 103px 15px 42px 180px;
+
+    color: #fff;
+}
+.ready-set-smile__contact-us {
+    margin-bottom: 230px;
+
+    line-height: 131%;
+}
+.ready-set-smile__title {
+    margin-bottom: 75px;
+
+    font-size: 64px;
+    font-weight: 700;
+}
+.ready-set-smile__text {
+    margin-bottom: 80px;
+
+    font-size: 36px;
+    line-height: 146%;
+}
+.ready-set-smile__button {
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: #62D0DF;
+
+    background: none;
+}
+@media (max-width: 1199px) {
+    .ready-set-smile__container {
+        max-width: 566px;
+    }
+    .ready-set-smile__contact-us {
+        margin-bottom: 50px;
+    }
+    .ready-set-smile__title {
+        margin-bottom: 20px;
+
+        font-size: 24px;
+    }
+    .ready-set-smile__text {
+        margin-bottom: 58px;
+        font-size: 18px;
+    }
+    .ready-set-smile__photo {
+        height: 422px;
+    }
+    .ready-set-smile__photo img {
+        height: 100%;
+    }
+}
+@media (max-width: 991px) {
+    .ready-set-smile__container {
+        max-width: 300px;
+        padding: 74px 15px 20px 30px;
+    }
+}
+@media (max-width: 480px) {
+    .ready-set-smile__photo {
+        display: none;
     }
 }
