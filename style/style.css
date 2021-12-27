@@ -156,6 +156,7 @@
 
     background-color: #fff;
 }
+
 .helping-you__ellipse-background {
     width: 545px;
     height: 808px;
@@ -168,6 +169,7 @@
 
     transform: rotate(30deg);
 }
+
 .helping-you__ellipse-photo {
     width: 545px;
     height: 808px;
@@ -179,6 +181,7 @@
 
     transform: rotate(52.84deg);
 }
+
 .helping-you__ellipse-photo img{
     height: 100%;
     width: 900px;
@@ -187,73 +190,6 @@
     transform: rotate(-52.84deg);
 }
 
-@media (max-width: 1200px) {
-    .header__logo {
-        margin-right: 150px;
-    }
-    .header__container-nav {
-        margin-bottom: 150px;
-    }
-    .header__container-button {
-        background-color: #F4F9E2;
-    }
-    .helping-you__photo {
-        display: none;
-    }
-}
-@media (max-width: 991px) {
-    .header__logo {
-        margin-right: 115px;
-    }
-    .header__container-nav {
-        padding-left: 100px;
-    }
-    .menu__link { 
-        font-size: 14px;
-    }
-    .helping-you__description {
-        padding-left: 100px;
-    }
-}
-@media (max-width: 767px) {
-    .header__container {
-        flex-direction: column;
-    }
-    .header__container-nav {
-        flex-basis: 0;
-        margin-bottom: 0;
-        padding-left: 20px;
-    }
-    .header__container-button {
-        padding: 20px 0 20px 20px;
-    }
-    .header__button {
-        width: 120px;
-        height: 30px;
-        font-size: 12px;
-    }
-    .helping-you__description {
-        padding: 0 20px;
-    }
-    .helping-you__logo {
-        display: none;
-    }
-    .helping-you__title {
-        margin-bottom: 30px;
-        font-size: 24px;
-    }
-    .helping-you__text {
-        font-size: 18px;
-    }
-}
-@media (max-width: 767px) {
-    .header__logo {
-        margin-right: 18px;
-    }
-    .menu__item:not(:last-child) {
-        padding-right: 7px;
-    }
-}
 .why-thrive__body {
     display: flex;
 
@@ -261,12 +197,15 @@
 
     background-color: #62D0DF;
 }
+
 .why-thrive__container {
     max-width: 555px;
 }
+
 .why-thrive__description {
     padding: 151px 181px 92px 178px;
 }
+
 .why-thrive__title {
     margin-bottom: 75px;
 
@@ -275,77 +214,48 @@
     line-height: 131%;
     letter-spacing: -0.06em;
 }
+
 .why-thrive__text {
     font-size: 18px;
     font-weight: 400;
     line-height: 175%;
 }
+
 .why-thrive__text_strong {
     font-size: 24px;
     font-weight: 500;
     line-height: 146%;
 }
+
 .why-thrive__photo {
     order: 1;
     margin-left: auto;
 }
+
 .why-thrive__photo img {
     width: 100%;
     height: 100%;
 }
+
 .why-thrive__photo img:last-child {
     display: none;
 }
-@media (min-width: 1437px) { 
-    .why-thrive__photo img:first-child {
-        display: none;
-    }
-    .why-thrive__photo img:last-child {
-        display: inline-block;
-    }
-}
-@media (max-width: 1200px) {
-    .why-thrive__description {
-        padding: 85px 30px 0px 100px; 
-    }
-}
-@media (max-width: 767px) {
-    .why-thrive__description {
-        padding: 48px 30px 0px 20px; 
-    }
-    .why-thrive__title {
-        margin-bottom: 25px;
 
-        font-size: 22px;
-    }
-    .why-thrive__text {
-        font-size: 14px;
-    }
-    .why-thrive__text_strong {
-        font-size: 16px;
-    }
-}    
-@media (max-width: 480px) {
-    .why-thrive__description {
-        color: #F6F6F6;
-        background: url('../img/main/why_thrive_small.png') center/100% 100% no-repeat;
-    }
-    .why-thrive__photo {
-        display: none;
-    }
-}
 .about-us__container {
     margin: 150px 0 120px 0;
 }
+
 .about-us__header {
     display: flex;
 }
+
 .about-us__title {
     margin: 0 210px 0 106px;
 
     line-height: 140%;
     font-weight: 400;
 }
+
 .about-us__description {
     max-width: 595px;
     margin-bottom: 76px;
@@ -354,6 +264,7 @@
     line-height: 140%;
     font-weight: 500;
 }
+
 .about-us__subtitle {
     text-align: center;
     margin-bottom: 24px;
@@ -363,16 +274,19 @@
 
     color: #22356F80;
 }
+
 .help-you__columns {
     display: flex;
     flex-wrap: wrap;
 }
+
 .help-you__column {
     width: 25%;
     height: 360px;
 
     text-align: center;
 }
+
 .column__line {
     display: inline-block;
     width: 80%;
@@ -381,6 +295,7 @@
 
     background-color: #fff;
 }
+
 .help-you__column ul {
     display: list-item;;
 
@@ -388,6 +303,7 @@
     list-style: inside;
     color: #E9B730;
 }
+
 .help-you__column li {
     display: inline-block;
 
@@ -395,77 +311,48 @@
     line-height: 105%;
     color: #fff;
 }
+
 .column__weight-lifting {
     background: #FFE2DE;
 }
+
 .column__running-and-spinning {
     background: #C4E769;
 }
+
 .column__pumping-iron_light-blue {
     background: #62D0DF;
 }
+
 .column__pumping-iron_dark-blue {
     background: #0052C1;
 }
-@media (max-width: 1199px) {
-    .help-you__column {
-        width: 50%;
-    }
-}
-@media (max-width: 991px) {
-    .about-us__container {
-        margin: 50px 0 50px 0;
-    }
-    .about-us__header {
-        flex-direction: column;
-        padding: 0 20px 0 20px;
-    }
-    .about-us__title {
-        margin-bottom: 50px;
-    }
-    .help-you__column li {
-        font-size: 20px;
-    }
-}
-@media (max-width: 480px) {
-    .about-us__title {
-        margin: 0 0 10px 30px;
-    }
-    .about-us__description {
-        font-size: 15px;
-    }
-    .help-you__column {
-        height: 200px;
-    }
-    .column__line {
-        margin: 30px 0 10px 0;
-    }
-    .help-you__column li {
-        margin-left: -20px;
 
-        font-size: 18px;
-    }
-}
 .sports__columns {
     display: flex;
     flex-wrap: wrap;
 }
+
 .sports__column {
     width: 33.333%;
     height: 480px;
 }
+
 .column__content {
     padding: 0px 70px;
 }
+
 .column__line {
     margin-bottom: 30px;
 }
+
 .column__content li {
     display: inline-block;
     font-size: 32px;
     line-height: 105%;
     color: #fff;
 }
+
 .column__content ul {
     display: list-item;;
 
@@ -473,68 +360,49 @@
     list-style: inside;
     color: #E9B730;
 }
+
 .column__physical-health {
     background-color: #22356F;
 }
+
 .column__mental-health {
     background-color: #0052C1;
 }
-.column__nutrition {
 
+.column__nutrition {
     display: inline-block;
+
     background: url('../img/main/nutrition_background_image.png') center/100% 100% no-repeat;
 }
+
 .column__gymnastics {
     background-color: #62D0DF;
 }
+
 .column__crossfit {
     background-color: #DEE1FF;
 }
+
 .column__aerobics {
     background-color: #8F00FF;
 }
-@media (max-width: 1199px) {
-    .sports__column {
-        width: 50%;
-    }
-}
-@media (max-width: 991px) {
-    .sports__column {
-        height: 380px;
-    }
-    .column__content {
-        padding: 0 30px;
-    }
-    .column__content li {
-        font-size: 20px;
-    }
-}
-@media (max-width: 480px) {
-    .sports__column {
-        height: 200px;
-    }
-    .column__content li {
-        margin-left: -20px;
 
-        font-size: 18px;
-    }
-    .column__content {
-        padding: 0 12px;
-    }
-}
 .sports__description {
     display: flex;
     flex-wrap: wrap;
     margin: 20px 0;
 }
+
 .description__plan {
     width: 33.333%;
     height: 240px;
     padding: 55px 0 0 105px;
 }
+
 .plan__column {
     max-width: 280px;
 }
+
 .plan__title {
     margin-bottom: 28px;
 
@@ -542,46 +410,26 @@
     line-height: 117%;
     font-weight: 500;
 }
+
 .plan__text {
     line-height: 158%;
     font-weight: 500;
     color: #22356F80;
 }
-@media (max-width: 1199px) {
-        .description__plan {
-            padding: 35px 0 0 55px;
-    }
-}
-@media (max-width: 991px) {
-    .description__plan {
-        width: 50%;
-        padding: 20px 10px 0 25px;
-    }
-}
-@media (max-width: 480px) {
-    .description__plan {
-        height: 190px;
-        padding: 20px 10px 0 10px;
-    }
-    .plan__title {
-        margin-bottom: 15px;
 
-        font-size: 18px;
-    }
-    .plan__text {
-        line-height: 110%;
-    }
-}
 .page__statistics {
     display: flex;
 }
+
 .statistics__container {
     padding: 103px 15px 0 106px;
 }
+
 .statistics__title {
     margin-bottom: 225px;
     line-height: 131%;
 }
+
 .statistics__text {
     max-width: 676px;
     margin-bottom: 152px;
@@ -590,9 +438,11 @@
     line-height: 150%;
     font-weight: 700;
 }
+
 .statistics__text span {
     color: #6CD3E1;
 }
+
 .statistics__button {
     margin-bottom: 50px;
 
@@ -600,53 +450,6 @@
     color: #FAB63E;
 
     background-color: #fff;
-}
-@media (max-width: 1199px) {
-    .statistics__text {
-        font-size: 24px;
-    }
-}
-@media (max-width: 991px) {
-    .statistics__photo {
-        display: none;
-    }    
-    .statistics__container {
-        padding: 50px 15px 0 20px;
-    }
-    .statistics__title {
-        margin-bottom: 50px;
-    }
-    .statistics__text {
-        margin-bottom: 20px;
-
-        font-size: 18px;
-    }
-}
-@media (max-width: 480px) {
-    .statistics__container {
-        max-width: 300px;
-        margin-left: -326px;
-        padding: 40px 15px 0 20px;
-        z-index: 1;
-    }
-    .statistics__text {
-        max-width: 450px;
-        margin-bottom: 100px;
-    }
-    .statistics__photo {
-        display: block;
-        height: 480px;
-        width: 100%;
-
-        opacity: 0.3;
-    }
-    .statistics__photo img {
-        height: 100%;
-        width: 100%
-    }
-    .statistics__button {
-        padding: 5px;
-    }
 }
 
 .page__ready-set-smile {
@@ -662,23 +465,27 @@
 
     color: #fff;
 }
+
 .ready-set-smile__contact-us {
     margin-bottom: 230px;
 
     line-height: 131%;
 }
+
 .ready-set-smile__title {
     margin-bottom: 75px;
 
     font-size: 64px;
     font-weight: 700;
 }
+
 .ready-set-smile__text {
     margin-bottom: 80px;
 
     font-size: 36px;
     line-height: 146%;
 }
+
 .ready-set-smile__button {
     font-weight: 700;
     letter-spacing: 0.1em;
@@ -686,55 +493,26 @@
 
     background: none;
 }
-@media (max-width: 1199px) {
-    .ready-set-smile__container {
-        max-width: 566px;
-    }
-    .ready-set-smile__contact-us {
-        margin-bottom: 50px;
-    }
-    .ready-set-smile__title {
-        margin-bottom: 20px;
 
-        font-size: 24px;
-    }
-    .ready-set-smile__text {
-        margin-bottom: 58px;
-        font-size: 18px;
-    }
-    .ready-set-smile__photo {
-        height: 422px;
-    }
-    .ready-set-smile__photo img {
-        height: 100%;
-    }
-}
-@media (max-width: 991px) {
-    .ready-set-smile__container {
-        max-width: 300px;
-        padding: 74px 15px 20px 30px;
-    }
-}
-@media (max-width: 480px) {
-    .ready-set-smile__photo {
-        display: none;
-    }
-}
 .footer__contacts {
     display: flex;
 }
+
 .contacts__info {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
+
 .contacts__column {
     margin: 98px 0 0 68px;
     max-width: 140px;
 }
+
 .contacts__column:last-child {
     margin-right: 40px
 }
+
 .contacts__title {
     margin-bottom: 50px;
 
@@ -742,6 +520,7 @@
     line-height: 131%;
     font-weight: 700;
 }
+
 .contacts__description {
     font-size: 14px;
     line-height: 164%;
@@ -749,9 +528,11 @@
 
     color: #22356F80;
 }
+
 .contacts__description a {
     color: #006DFF;
 }
+
 .footer__copyright {
     padding: 32px 0 26px 194px;
 
@@ -761,6 +542,10 @@
 
     background-color: #62D0DF;
 }
+
+
+
+
 
 @media (min-width: 2000px) {
     .header__logo {
@@ -884,7 +669,66 @@
 
 
 
+@media (min-width: 1437px) { 
+    .why-thrive__photo img:first-child {
+        display: none;
+    }
+    .why-thrive__photo img:last-child {
+        display: inline-block;
+    }
+}
+
+
+
 @media (max-width: 1199px) {
+    .header__logo {
+        margin-right: 150px;
+    }
+    .header__container-nav {
+        margin-bottom: 150px;
+    }
+    .header__container-button {
+        background-color: #F4F9E2;
+    }
+    .helping-you__photo {
+        display: none;
+    }
+    .why-thrive__description {
+        padding: 85px 30px 0px 100px; 
+    }
+    .help-you__column {
+        width: 50%;
+    }
+    .sports__column {
+        width: 50%;
+    }
+    .description__plan {
+        padding: 35px 0 0 55px;
+    }
+    .statistics__text {
+        font-size: 24px;
+    }
+    .ready-set-smile__container {
+        max-width: 566px;
+    }
+    .ready-set-smile__contact-us {
+        margin-bottom: 50px;
+    }
+    .ready-set-smile__title {
+        margin-bottom: 20px;
+
+        font-size: 24px;
+    }
+    .ready-set-smile__text {
+        margin-bottom: 58px;
+        font-size: 18px;
+    }
+    .ready-set-smile__photo {
+        height: 422px;
+    }
+    .ready-set-smile__photo img {
+        height: 100%;
+    }
     .contacts__column {
         margin: 50px 0 0 10px;
     }
@@ -895,13 +739,63 @@
 
 
 
-
-
-
-
-
-
 @media (max-width: 991px) {
+    .header__logo {
+        margin-right: 115px;
+    }
+    .header__container-nav {
+        padding-left: 100px;
+    }
+    .menu__link { 
+        font-size: 14px;
+    }
+    .helping-you__description {
+        padding-left: 100px;
+    }
+    .about-us__container {
+        margin: 50px 0 50px 0;
+    }
+    .about-us__header {
+        flex-direction: column;
+        padding: 0 20px 0 20px;
+    }
+    .about-us__title {
+        margin-bottom: 50px;
+    }
+    .help-you__column li {
+        font-size: 20px;
+    }
+    .sports__column {
+        height: 380px;
+    }
+    .column__content {
+        padding: 0 30px;
+    }
+    .column__content li {
+        font-size: 20px;
+    }
+    .description__plan {
+        width: 50%;
+        padding: 20px 10px 0 25px;
+    }
+    .statistics__photo {
+        display: none;
+    }    
+    .statistics__container {
+        padding: 50px 15px 0 20px;
+    }
+    .statistics__title {
+        margin-bottom: 50px;
+    }
+    .statistics__text {
+        margin-bottom: 20px;
+
+        font-size: 18px;
+    }
+    .ready-set-smile__container {
+        max-width: 300px;
+        padding: 74px 15px 20px 30px;
+    }
     .contacts__photo {
         display: none;
     }
@@ -912,10 +806,135 @@
 
 
 
+@media (max-width: 767px) {
+    .header__container {
+        flex-direction: column;
+    }
+    .header__container-nav {
+        flex-basis: 0;
+        margin-bottom: 0;
+        padding-left: 20px;
+    }
+    .header__container-button {
+        padding: 20px 0 20px 20px;
+    }
+    .header__button {
+        width: 120px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .helping-you__description {
+        padding: 0 20px;
+    }
+    .helping-you__logo {
+        display: none;
+    }
+    .helping-you__title {
+        margin-bottom: 30px;
+        font-size: 24px;
+    }
+    .helping-you__text {
+        font-size: 18px;
+    }
+    .header__logo {
+        margin-right: 18px;
+    }
+    .menu__item:not(:last-child) {
+        padding-right: 7px;
+    }
+    .why-thrive__description {
+        padding: 48px 30px 0px 20px; 
+    }
+    .why-thrive__title {
+        margin-bottom: 25px;
+
+        font-size: 22px;
+    }
+    .why-thrive__text {
+        font-size: 14px;
+    }
+    .why-thrive__text_strong {
+        font-size: 16px;
+    }
+}
 
 
 
 @media (max-width: 480px) {
+    .why-thrive__description {
+        color: #F6F6F6;
+        background: url('../img/main/why_thrive_small.png') center/100% 100% no-repeat;
+    }
+    .why-thrive__photo {
+        display: none;
+    }
+    .about-us__title {
+        margin: 0 0 10px 30px;
+    }
+    .about-us__description {
+        font-size: 15px;
+    }
+    .help-you__column {
+        height: 200px;
+    }
+    .column__line {
+        margin: 30px 0 10px 0;
+    }
+    .help-you__column li {
+        margin-left: -20px;
+
+        font-size: 18px;
+    }
+    .sports__column {
+        height: 200px;
+    }
+    .column__content li {
+        margin-left: -20px;
+
+        font-size: 18px;
+    }
+    .column__content {
+        padding: 0 12px;
+    }
+    .description__plan {
+        height: 190px;
+        padding: 20px 10px 0 10px;
+    }
+    .plan__title {
+        margin-bottom: 15px;
+
+        font-size: 18px;
+    }
+    .plan__text {
+        line-height: 110%;
+    }
+    .statistics__container {
+        max-width: 300px;
+        margin-left: -326px;
+        padding: 40px 15px 0 20px;
+        z-index: 1;
+    }
+    .statistics__text {
+        max-width: 450px;
+        margin-bottom: 100px;
+    }
+    .statistics__photo {
+        display: block;
+        height: 480px;
+        width: 100%;
+
+        opacity: 0.3;
+    }
+    .statistics__photo img {
+        height: 100%;
+        width: 100%
+    }
+    .statistics__button {
+        padding: 5px;
+    }
+    .ready-set-smile__photo {
+        display: none;
+    }
     .contacts__info {
         flex-direction: column;
         margin-left: 80px;
