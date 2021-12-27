@@ -794,6 +794,91 @@
 
         font-size: 32px;
     }
+    .why-thrive__description {
+        padding-right: 50px;
+    }
+    .why-thrive__title {
+        font-size: 61px;
+    }
+    .why-thrive__text {
+        font-size: 40px;
+        line-height: 120%;
+    }
+    .why-thrive__text_strong {
+        font-size: 40px;
+    }
+    .about-us__title {
+        font-size: 32px;
+    }
+    .about-us__description {
+        max-width: 1200px;
+        font-size: 48px;
+    }
+    .about-us__subtitle {
+        font-size: 30px;
+    }
+    .help-you__column li {
+        font-size: 54px;
+    }
+    .column__content li {
+        font-size: 60px;
+    }
+    .sports__column {
+        height: 800px;
+    }
+    .sports__description {
+        margin-bottom: 200px;
+    }
+    .description__plan {
+        margin-bottom: 250px;
+    }
+    .plan__column {
+        max-width: 500px;
+    }
+    .plan__title {
+        font-size: 50px;
+    }
+    .plan__text {
+        font-size: 34px;
+    }
+    .statistics__title {
+        margin-bottom: 187px;
+
+        font-size: 30px;
+    }
+    .statistics__text {
+        max-width: 1300px;
+
+        font-size: 51px;
+    }
+    .statistics__button {
+        font-size: 30px;
+    }
+    .sports__description {
+        font-size: 30px;
+    }
+    .ready-set-smile__container {
+        max-width: 1300px;
+
+        font-size: 45px;
+    }
+    .ready-set-smile__button {
+        font-size: 30px;
+    }
+    .contacts__column {
+        max-width: 400px;
+
+        margin-top: 40px;
+    }
+    .contacts__title {
+        font-size: 40px;
+    }
+    .contacts__description {
+        font-size: 28px;
+    }
+    .footer__copyright {
+        font-size: 29px;
+    }
 }
 
 
