@@ -11,23 +11,22 @@
     padding: 0 54px;
 }
 
-.header__container {
-    display: flex;
-
-    background-color: #F4F9E2;
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
 }
 
-.header__container-nav {
+.header__container {
     display: flex;
-    flex-basis: 1650px;
-    margin: 27px 0 238px;
-    padding-left: 178px;
-
+    justify-content: space-between;
+    width: 100%;
+    padding: 27px 178px;
 }
 
 .header__logo {
-    margin-right: 215px;
-
     font-family: 'Larsseit', sans-serif;
     font-size: 24px;
     line-height: 112%;
@@ -62,17 +61,7 @@
     border-bottom: 1px solid #22356F;
 }
 
-.header__container-button {
-    width: 269px;
-    flex-grow: 1;
-    padding: 27px 54px 0 45px;
-
-    background-color: #fff;
-}
-
 .header__button {
-    position: relative;
-    z-index: 1;
     width: 150px;
     height: 50px;
 
@@ -85,14 +74,22 @@
 
 .page__helping-you {
     display: flex;
-    justify-content: center;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 100vh;
 
     background-color: #F4F9E2;
 }
 
 .helping-you__description {
-    flex-basis: 1650px;
-    padding-left: 178px;
+    max-width: 662px;
+    margin: 0 0 75px 178px;
+}
+
+.helping-you__photo {
+    height: 100%;
+    width: 25%;
+    background-color: #fff;
 }
 
 .helping-you__container {
@@ -134,7 +131,6 @@
 .button {
     width: 150px;
     height: 50px;
-    margin-bottom: 77px;
 
     font-size: 16px;
     font-weight: 700;
@@ -149,38 +145,32 @@
     background-color: #F9B640;
 }
 
-.helping-you__photo {
-    width: 269px;
-    flex-grow: 1;
-    padding-right: 320px;
-
-    background-color: #fff;
-}
-
 .helping-you__ellipse-background {
+    position: relative;
+    left: -170px;
+    top: -80px;
     width: 545px;
     height: 808px;
-    margin-top: -400px;
-    margin-left: -150px;
 
     background-color: #EDFDFF;
 
-    border-radius: 272.5px;
+    border-radius: 273px;
 
     transform: rotate(30deg);
 }
 
-.helping-you__ellipse-photo {
+ .helping-you__ellipse-photo {
+    position: relative;
+    left: -130px;
+    top: -854px;
     width: 545px;
     height: 808px;
     overflow: hidden;
-    margin-top: -773px;
-    margin-left: -111px;
 
-    border-radius: 272.5px; 
+    border-radius: 273px; 
 
     transform: rotate(52.84deg);
-}
+} 
 
 .helping-you__ellipse-photo img{
     height: 100%;
@@ -188,7 +178,7 @@
     margin: 80px 0 0 -190px;
 
     transform: rotate(-52.84deg);
-}
+} 
 
 .why-thrive__body {
     display: flex;
@@ -565,8 +555,12 @@
     .helping-you__container {
         max-width: 1000px;
     }
+    .helping-you__description {
+        margin: 0 0 7px 178px;
+    }
     .helping-you__logo {
-        font-size: 65px;
+        /* font-size: 65px; */
+        display: none;
     }
     .helping-you__title {
         font-size: 63px;
@@ -681,14 +675,8 @@
 
 
 @media (max-width: 1199px) {
-    .header__logo {
-        margin-right: 150px;
-    }
-    .header__container-nav {
-        margin-bottom: 150px;
-    }
-    .header__container-button {
-        background-color: #F4F9E2;
+    .helping-you__description {
+        margin: 0 0 0 178px;
     }
     .helping-you__photo {
         display: none;
@@ -740,17 +728,14 @@
 
 
 @media (max-width: 991px) {
-    .header__logo {
-        margin-right: 115px;
-    }
-    .header__container-nav {
-        padding-left: 100px;
+    .header__container {
+        padding: 27px 78px;
     }
     .menu__link { 
         font-size: 14px;
     }
     .helping-you__description {
-        padding-left: 100px;
+        margin: 0 0 0 20px;
     }
     .about-us__container {
         margin: 50px 0 50px 0;
@@ -823,9 +808,6 @@
         height: 30px;
         font-size: 12px;
     }
-    .helping-you__description {
-        padding: 0 20px;
-    }
     .helping-you__logo {
         display: none;
     }
@@ -861,6 +843,9 @@
 
 
 @media (max-width: 480px) {
+    .helping-you__description {
+        margin: 0 0 0 10px;
+    }
     .why-thrive__description {
         color: #F6F6F6;
         background: url('../img/main/why_thrive_small.png') center/100% 100% no-repeat;
